@@ -33,7 +33,7 @@ public class BeerController {
 //        BeerDto savedDto = beerService.saveNewBeer(beerDto);
 //
 //        HttpHeaders headers = new HttpHeaders();
-//        headers.add("Location", "/api/v1/beer" + savedDto.getId().toString()); // TODO: Add hostname to url
+//        headers.add("Location", "/api/v1/beer/" + savedDto.getId().toString()); // TODO: Add hostname to url
 //
 //        return new ResponseEntity(headers, HttpStatus.CREATED);
 
